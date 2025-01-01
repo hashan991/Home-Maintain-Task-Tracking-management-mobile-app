@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="accentColor">#6200EE</color> <!-- Deep purple for accent elements -->
+    <!-- Background Colors -->
+    <color name="cardBackground">#FFFFFF</color> <!-- White for card background -->
+    <color name="primaryBackground">#F0F0F5</color> <!-- Light grey background -->
+
+    <!-- Text Colors -->
+    <color name="primaryText">#212121</color> <!-- Dark grey for primary text -->
+    <color name="secondaryText">#757575</color> <!-- Medium grey for secondary text -->
+    <color name="priorityText">#FF5722</color> <!-- Vibrant orange for priority -->
+
+    <!-- Accent Colors -->
+
+    <color name="iconColor">#009688</color> <!-- Teal for icons -->
+
+    <!-- Button Colors -->
+    <color name="buttonBackground">#4CAF50</color> <!-- Green for button backgrounds -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White for button text -->
+
+    <!-- Highlight Colors -->
+    <color name="highlightBackground">#FFEB3B</color> <!-- Yellow for highlights -->
+
+    <!-- Shadow/Elevation -->
+    <color name="shadowColor">#BDBDBD</color> <!-- Light shadow color for card elevation -->
+
+    <color name="primaryLight">#E0F7FA</color> <!-- Example of a light background color -->
+    <color name="primaryDark">#303F9F</color> <!-- Example of a dark blue color -->
+
+
+
+</resources>

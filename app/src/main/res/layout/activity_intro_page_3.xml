@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C2434"
+    android:padding="16dp">
+
+    <!-- Page Content -->
+
+    <!-- ImageView for the Image at the Top -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@drawable/photo4" />
+
+    <!-- TextView Content -->
+    <TextView
+        android:id="@+id/page3Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Ready to keep your home in top shape?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextButtonPage3"
+        android:layout_width="241dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Next"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

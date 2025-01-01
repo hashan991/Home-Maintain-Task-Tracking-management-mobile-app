@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_image"> <!-- Optional background color -->
+
+    <!-- Background Image with elevation and rounded corners -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:contentDescription="@null"
+        android:src="@drawable/add_task"
+        android:scaleType="centerCrop"
+        android:elevation="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/add_task" />
+
+    <!-- Task Name Input with modern styling -->
+    <EditText
+        android:id="@+id/editTextTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Name"
+        android:background="@drawable/edit_text_background"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Due Date Input with similar styling -->
+    <EditText
+        android:id="@+id/editTextDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Due Date"
+        android:background="@drawable/edit_text_background"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Due Time Input with similar styling -->
+    <EditText
+        android:id="@+id/editTextDueTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Due Time"
+        android:background="@drawable/edit_text_background"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Priority Input with similar styling -->
+    <EditText
+        android:id="@+id/editTextPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Priority"
+        android:background="@drawable/edit_text_background"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:elevation="4dp"/>
+
+</LinearLayout>

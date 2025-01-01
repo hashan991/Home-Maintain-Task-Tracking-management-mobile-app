@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/background_image" />
+
+    <!-- UI Elements on top of the background -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Task name input -->
+        <EditText
+            android:id="@+id/editTextTaskName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter task name"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:textSize="16sp"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:elevation="4dp"
+            android:layout_marginTop="20dp" />
+
+        <!-- Countdown duration input -->
+        <EditText
+            android:id="@+id/editTextDuration"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Set Time (seconds)"
+            android:padding="12dp"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="16sp"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:elevation="4dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Timer display -->
+        <TextView
+            android:id="@+id/textViewTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:elevation="4dp" />
+
+        <!-- Buttons for start, stop, and reset -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:background="@drawable/button_background" />
+
+            <Button
+                android:id="@+id/buttonStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FF5722"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:background="@drawable/button_background" />
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2196F3"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:background="@drawable/button_background" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

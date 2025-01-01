@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C2434"
+    android:padding="16dp">
+
+    <!-- Page Content -->
+
+    <!-- Next Button -->
+    <TextView
+        android:id="@+id/page2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextButtonPage2"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="39dp"
+        android:text="Manage all your home tasks efficiently!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/nextButtonPage2"
+        android:layout_width="241dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Next"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="54dp"
+        app:srcCompat="@drawable/photo3" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:elevation="6dp"
+    android:background="@drawable/widget_background"
+    android:gravity="center">
+
+    <!-- Title with bold and larger text size -->
+    <TextView
+        android:id="@+id/textViewWidgetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upcoming Task"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center" />
+
+    <!-- Task name with subtle font styling -->
+    <TextView
+        android:id="@+id/textViewTaskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have more tasks"
+        android:textSize="16sp"
+        android:textColor="#EEEEEE"
+        android:paddingTop="8dp"
+        android:gravity="center" />
+
+    <!-- Task time with smaller and dimmer text -->
+    <TextView
+        android:id="@+id/textViewTaskTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please check"
+        android:textSize="14sp"
+        android:textColor="#CCCCCC"
+        android:paddingTop="4dp"
+        android:gravity="center" />
+
+</LinearLayout>
